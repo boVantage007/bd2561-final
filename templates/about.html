@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+    {% extends "layout.html" %}
+    {% block content %}
+    <div class="about">
+        <h1>AREAS OF STUDY</h1>
+        <p>-LAW HUMANITIES</p>
+        <p>-POLITICAL SCIENCES</p>
+        <p>-DATA STRUCTURES</p>
+        <p>-ECONOMIC THEORY</p>
+        <p>-CLIENT/SERVER APPLICATIONS</p>
+        <p>--</p>
+        <h5>SITE NAVIGATION</h5>
+        <li><a href="{{ url_for('home') }}">HOME</a></li>
+        <li><a href="{{ url_for('assignments') }}">ASSIGNMENTS</a></li>
+        <p>--</p>
+        <h5>EXTERNAL LINKS</h5>
+        <a href="https://github.com/boVantage007/bd2561-final">GIT REPOSITORY</a>
+        <a href="https://www.linkedin.com/in/bodincer">LINKEDIN</a>
+        <a href="https://www.columbiahutchmen.com/">COLUMBIA UNIVERSITY ICE HOCKEY</a>
+        <a href="https://www.eliteprospects.com/player/670307/bo-dincer">ELITE PROSPECTS</a>
+    </div>
+    {% endblock %}
+</body>
+</html>

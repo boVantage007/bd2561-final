@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+{% extends "layout.html" %}
+{% block content %}
+    <div class="assignments">
+        <h4>SCHEDULE OF COMPLETED ASSIGNMENTS</h4>
+        <h1>MIDTERM</h1>
+        <p>PPM (or Portable Pix Map) image formatting (input/output) files to and from memory.</p>
+        <p>- Manipulating .ppm files using multi-dimensional arrays of RGB values to and from disk.</p>
+        <p>- Conversion of color images to black and white by replace each pixel RGB value.</p>
+        <p>- All conducted using an interactive session where the user decides the desired manipulation through a front end.</p>
+        <h1>HOMEWORK 4</h1>
+        <p>Modeling data using Object Oriented Programming in python in an interactive user session.</p>
+        <p>- Reading and interpreting error messages.</p>
+        <p>- Plotting information using Matlab</p>
+        <h1>HOMEWORK 3B</h1>
+        <p>Reading and writing numpy arrays of binary numbers as boolean gates.</p>
+        <p>- Analysis of open and blocked systems of integers which percolate.</p>
+        <p>Dataset analysis in human breast cancer tissue.</p>
+        <p>- Program predicts whether a given tumor is benign or malignant with 95%+ accuracy</p>
+        <h1>HOMEWORK 3A</h1>
+        <p>Analysis of time complexity while manipulating dictionaries and lists, recursively.</p>
+        <h1>HOMEWORK 2B</h1>
+        <p>Calculating the position of a projectile fired into the air.</p>
+        <p>- Analysis of the variation of gravitational acceleration with altitude.</p>
+        <p>- Simulation of the projectile's motion through space.</p>
+        <p>- Tracking the simulation points using multi-dimensional lists.</p>
+        <h1>HOMEWORK 2A</h1>
+        <p>Time complexity analysis of the following algorithms:</p>
+        <p>- Selection sort; Sequential search (where we simply iterate through all records);</p>
+        <p>- Binary Search (in a presorted list)</p>
+        <h1>HOMEWORK 1B</h1>
+        <p> Maintaining user i/o sessions.</p>
+        <p>- Working with python lists.</p>
+        <h1>HOMEWORK 1A</h1>
+        <p>Binary numbers; Pseudocode for algorithms using decimal input precision.</p>
+        <p>Binary Conversions and Binary Number Computation:</p>
+        <p>- Signed Binary, One’s Complement, Two’s Complement, Octal, etc...</p>
+        <p>--</p>
+        <h5>SITE NAVIGATION</h5>
+        <li><a href="{{ url_for('home') }}">HOME</a></li>
+        <li><a href="{{ url_for('about') }}">ABOUT</a></li>
+        <p>--</p>
+        <h5>EXTERNAL LINKS</h5>
+        <a href="https://github.com/boVantage007/bd2561-final">GIT REPOSITORY</a>
+        <a href="https://www.columbiahutchmen.com/">COLUMBIA MEN'S ICE HOCKEY</a>
+        <a href="https://www.eliteprospects.com/player/670307/bo-dincer">ELITE PROSPECTS</a>
+    </div>
+{% endblock %}
+</body>
+</html>
