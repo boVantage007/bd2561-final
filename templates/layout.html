@@ -1,20 +1,25 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
+<head><!-- THIS IS THE INFORMATION PUBLISHED IN THE TAB -->
     <title>Bo Dincer</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
 </head>
 <body>
-    <header>
+    <header><!-- THIS IS THE INFORMATION PUBLISHED IN THE NAVIGATION PANEL -->
         <div class="container">
             <h1 class="logo">bd2561-final</h1>
-            <strong><nav>
+            <strong>
+                <nav>
                     <ul class="menu">
+                        <!-- THIS IS A LINK TO THE HOME PAGE -->
                         <li><a href="{{ url_for('home') }}">HOME</a></li>
+                        <!-- THIS IS A LINK TO THE ABOUT PAGE -->
                         <li><a href="{{ url_for('about') }}">ABOUT</a></li>
+                        <!-- THIS IS A LINK TO THE ASSIGNMENTS PAGE -->
                         <li><a href="{{ url_for('assignments') }}">ASSIGNMENTS</a></li>
                     </ul>
-                </nav></strong>
+                </nav>
+            </strong>
         </div>
     </header>
     <div class="container">
